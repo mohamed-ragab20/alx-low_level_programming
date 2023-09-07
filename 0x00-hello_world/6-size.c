@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * deascription: print size
+ * Description: A C program that print size with printf function
  *
- * return: Always 0 (success)*/
+ * Return: Always 0 (success)
+*/
 
 int main(void)
 {
