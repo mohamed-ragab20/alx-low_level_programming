@@ -34,7 +34,7 @@ int main(void)
 		}
 		seconDigit++;
 	}
-	fristDigit++;
+	firstDigit++;
 }
 putchar('\n');
 
