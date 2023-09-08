@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: a program that prints all possible
+ *combinations of two two-digit numbers
+ *
+ * Return: 0
+*/
+
+int main(void)
+{
+	int firstDigit = 0, seconDigit;
+
+	while (fristDigit <= 99)
+{
+	secondDigit = firstDigit;
+	while (seconDigit <= 99)
+	{
+		if (seconDigit != firstDigit)
+		{
+			putchar((firstDigit / 10) + 48);
+			putchar((firstDigit % 10) + 48);
+			putchar(' ');
+			putchar((seconDigit / 10) + 48);
+			putchar((seconDigit % 10) + 48);
+
+			if (fristDigit != 98 || seconDigit != 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+		seconDigit++;
+	}
+	fristDigit++;
+}
+putchar('\n');
+
+return (0);
+}
