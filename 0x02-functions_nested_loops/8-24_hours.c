@@ -5,16 +5,17 @@
 */
 
 void jack_bauer(void)
-{
-	for (hr = 0; hr <= 23; hr++)
+{ 
+	int ment, hor;
+	for (hor = 0; hor <= 23; hor++)
 	{
-		for (min = 0; min <= 59; min++)
+		for (ment = 0; ment <= 59; ment++)
 		{
-			_putchart((hr / 10) + 48);
-			_putchart((hr % 10) + 48);
+			_putchart((hor / 10) + 48);
+			_putchart((hor % 10) + 48);
 			_putchart(':');
-			_putchart((min / 10) + 48);
-			_putchart((min % 10) + 48);
+			_putchart((ment / 10) + 48);
+			_putchart((ment % 10) + 48);
 			_putchart('\n');
 		}
 	}
