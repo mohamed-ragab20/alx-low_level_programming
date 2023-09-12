@@ -15,6 +15,7 @@ void print_times_table(int n)
 		for (num = 0; num <= n; num++)
 		{
 			_putchar(48);
+
 		for (mu = 1; mu <= n; mu++)
 		{
 			_putchar(',');
@@ -24,13 +25,16 @@ void print_times_table(int n)
 
 			if (pro <= 9)
 				_putchar(' ');
+
 			if (pro <= 99)
 				_putchar(' ');
+
 			if (pro >= 100)
 			{
 				_putchar((pro / 100) + 48);
 				_putchar((pro / 10) % 10 + 48);
 			}
+
 			 if (pro <= 99 && pro >= 10)
 				_putchar((pro / 10) + 48);
 				_putchar((pro % 10) + 48);
