@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
- * description: prints the alphabet, in lowercase, followed by a new line
- *
+ *print_alphabet - utilizes on the _putchar function to print
+ *			the a - z
 */
 
 void print_alphabet(void)
