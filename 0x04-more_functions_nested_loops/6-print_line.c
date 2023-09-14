@@ -5,6 +5,7 @@
  *
  * @n: the num of time tshould print
 */
+
 void print_line(int n)
 {
 	int lnchr;
