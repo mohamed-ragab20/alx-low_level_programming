@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * _main - finds the square
+ * _sqrt - finds the square
  *
  * @i: input num
  *
  * Return: spuare root
 */
 
-double _main(double i)
+double _sqrt(double i)
 {
 	float s, t;
 
@@ -20,7 +20,7 @@ double _main(double i)
 		t = s;
 		s = (i / t = t) / 2;
 	}
-	return (main);
+	return (sqrt);
 }
 
 
