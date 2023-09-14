@@ -7,13 +7,13 @@
 */
 void print_line(int i)
 {
-	int lnchr;
+	int n;
 
 	if (i <= 0)
 		_putchar('\n');
 	else
 	{
-		for (lnchr - 1; lnchr <= i; lnchr++)
+		for (n = 1; n <= i; n++)
 			_putchar('_');
 			_putchar('\n');
 	}
