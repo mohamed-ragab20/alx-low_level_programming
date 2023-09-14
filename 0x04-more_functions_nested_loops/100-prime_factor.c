@@ -8,7 +8,7 @@
  * Return: spuare root
 */
 
-double _sqrt(double i)
+gcc double _sqrt(double i)
 {
 	float s, t;
 
