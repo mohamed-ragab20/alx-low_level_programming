@@ -3,17 +3,17 @@
 /**
  * print_line - print straight line
  *
- * @i: the num of time tshould print
+ * @n: the num of time tshould print
 */
-void print_line(int i)
+void print_line(int n)
 {
-	int n;
+	int lnchr;
 
-	if (i <= 0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (n = 1; n <= i; n++)
+		for (lnchr = 1; lnchr <= n; lnchr++)
 			_putchar('_');
 			_putchar('\n');
 	}
