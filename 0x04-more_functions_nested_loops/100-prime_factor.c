@@ -19,7 +19,7 @@ int main(void)
 			number /= 2;
 			continue;
 		}
-		for (i = 3; inc < number / 2; i += 2)
+		for (i = 3; i < number / 2; i += 2)
 		{
 			if (number % i == 0)
 				number /= i;
