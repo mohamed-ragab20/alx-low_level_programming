@@ -1,4 +1,4 @@
-#include "mine.h"
+#include "main.h"
 
 /**
  * print_line - print straight line
