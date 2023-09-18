@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string -  reverses a string
+ * rev_string - Reverse a string
  *
  * @s: input
  *
@@ -10,19 +10,49 @@
 
 void rev_string(char *s)
 {
-	char rev = s[0];
-	int c = 0;
-	int i;
+	int i = 0, l;
 
-	while (s[c] != '\0')
-	}
-		c++;
-	}
-	for (i = 0; i < c; i++)
+	l = _strlen(s) - 1;
+	while (l > i)
 	{
-		c--;
-		rev = s[i];
-		s[i] = s[c];
-		s[c] = rev;
+		swap_char(s + l, s + i);
+		i++;
+		l--;
 	}
+}
+
+/**
+ * _strlen - returns the length of a string
+ *
+ * @s: input
+ *
+ * Return: lenght
+*/
+
+int _strlen(char *s)
+{
+	int c, io;
+
+	io = 0;
+	for (c = 0; s[c] != '\0'; c++)
+		io++;
+
+	return (io);
+}
+
+/**
+ * swap_char - swap two characters
+ *
+ * @a: frist input
+ * @b: second input
+ *
+ * Return: nothing
+*/
+
+void swap_char(char *a, char *b)
+{
+	char t = *a;
+
+	*a = *b;
+	*b = t;
 }
