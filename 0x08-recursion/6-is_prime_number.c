@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime - returns 1 if the input integer is a prime number, otherwise return 0
+ * is_prime - check if the input integer is a prime number
  *
  * @n: input
  * @divisor: input
@@ -19,7 +19,7 @@ int is_prime(int n, int divisor)
 }
 
 /**
- *is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0
+ *is_prime_number - check if the input integer is a prime number
  *
  * @n: input
  *
